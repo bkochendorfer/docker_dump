@@ -1,4 +1,6 @@
 environment:
+  services:
+      - orchardup/mysql
 build:
   run:
     - echo meow 
