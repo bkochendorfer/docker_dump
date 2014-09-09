@@ -10,7 +10,7 @@ environment:
 
 plugins:
   - docker_publish:
-      repository: docker-registry:80
+      repository: docker-registry.snc1:80
       name: funnel/deal
       hipchat:
         - 332323
