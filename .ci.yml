@@ -5,6 +5,9 @@ build:
   run:
     - echo meow 
 
+environment:
+  language: node
+
 plugins:
   - docker_publish:
       repository: docker-registry:80
